@@ -81,7 +81,7 @@ $(function () {
   $('.header__top a').click(function () { 
     $('.burger, .overlay').removeClass('burger--active')
   })
-  
+
   $(".header__nav-list a, .header__top-btn, .footer__go-top").on("click", function (e) {
     e.preventDefault()
     var id = $(this).attr('href'),
